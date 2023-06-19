@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shirines/Shrine01.unity
     guid: 626ee094935379e43a55611ffc857828
+  - enabled: 1
+    path: Assets/Scenes/Jhonny-0902'Scene/CidadeRio.unity
+    guid: 3203c712255c5d943a7b97106d164e9b
   m_configObjects: {}
