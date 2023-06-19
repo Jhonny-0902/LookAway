@@ -34,17 +34,6 @@ public class MoveChanPhisical : MonoBehaviour
     void Start()
     {
         
-        // Verifica se o nome da cena ativa é "Land"
-        if (SceneManager.GetActiveScene().name.Equals("Land"))
-        {
-            // Verifica se há uma posição antiga do jogador
-            if (PlayerPrefs.HasKey("OldPlayerPosition"))
-            {
-                // Move o jogador para a posição antiga
-                print("movendo " + PlayerPrefsX.GetVector3("OldPlayerPosition"));
-                transform.position = PlayerPrefsX.GetVector3("OldPlayerPosition");
-            }
-        }
         // Define a câmera principal como a câmera atual
         currentCamera = Camera.main.gameObject;
     }
